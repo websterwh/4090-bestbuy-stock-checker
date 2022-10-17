@@ -32,5 +32,6 @@ stockChecker()
 while stock==False:
     time.sleep(60)
     os.system('cls')
+    stockChecker()
 
     
